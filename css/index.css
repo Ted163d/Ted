@@ -1,0 +1,375 @@
+/* 中间部分 */
+.banner{
+    margin: 0 auto;
+    width: 1519.2px;
+    height: 710px;
+    margin: 0 0 20px;
+    background-color: #fff;
+    background: url("../images/bgc.png") 50% 20px; 
+    position: relative;
+}
+/* 左 */
+.banner-col1{
+    width: 190px;
+    height: 480px;
+    position: absolute;
+    /* display: inline-block; */
+    margin: 0 10px 0 164.6px;
+}
+.col1-left{
+    background-color:white;
+    height: 450px;
+    margin: 10px 0 0;
+    padding: 10px 0;
+}
+.item{
+    margin: 0 0 0 18px;
+}
+.col1-left .item:hover{
+    background-color: rgba(0,0,0,.2);
+}
+.col1-left a{
+    line-height: 25px;
+    color: #333;
+    font-size: 14px;
+}
+.col1-left a:hover{
+    color: #c81623;
+}
+.item span{
+    padding: 0 2px;
+    font-size: 12px;
+}
+
+ul{
+    color: #636363;
+    padding: 0;
+    margin: 0;
+    position: relative;
+}
+.item img{
+    position: absolute;
+
+}
+/* 中 */
+.banner-col2{
+    padding: 0;
+    width: 790px;
+    height: 480px;
+    /* display: inline-block; */
+    position: absolute;
+    margin-top: 10px;
+    margin-right: 10px;
+    margin-left:366.6px;
+}.img-wrap{
+    position: relative;
+}
+.img-wrap a{
+    position: absolute;
+    margin-left: -20px;
+}
+.lr-tab .btn{
+    position: absolute;
+    top:50%;
+    /* margin-top: -35px; */
+    width: 36px;
+    height: 57px;
+    background: url("../images/07.png");
+    transform: translateY(-50%);
+    cursor: pointer;
+}
+.lr-tab .left{
+    left:20px; 
+    background-position-x: -83px;
+    background-position-y: -6px;
+    padding: 0;
+}
+.lr-tab .right{
+    right:0px;
+    background-position-x: 36px;
+    background-position-y: -6px;
+    padding: 0;
+}
+.lr-tab .left:hover{
+    background-position-x: -1px;
+}
+.lr-tab .right:hover{
+    background-position-x: -45px;
+}
+.tab-btn{
+    position: absolute;
+    left: 25px;
+    bottom: 20px;
+    width: 113px;
+    height: 15px;
+}
+.tab-btn .btn{
+    width: 8px;
+    height: 8px;
+    background-color: rgba(255,255,255,.4);
+    border: 1px solid rgba(0, 0, 0, .05) ;
+    margin-right: 4px;
+    float: left;
+    border-radius: 50%;
+    cursor: pointer;
+
+}
+.tab-btn .btn:hover{
+    background: #e4e4e4;
+    border-color:dimgray ;
+}
+.tab-btn .active{
+    background: #e4e4e4;
+    border-color: #7f7f7f;
+}
+/* 右 */
+.banner-col3{
+    width: 190px;
+    height: 470px;
+    position: absolute;
+    margin-left:1164.6px;
+    top: 10px;
+    background-color: #fff;
+}
+.col3{
+    position: relative;
+}
+/* 上 */
+.title{
+    width: 190px;
+    height: 35px;
+    position: absolute;
+    padding: 67px 0 0;
+    background-color: #fff;
+
+}
+.t-t{
+    position: relative;
+}
+.t{
+    position: absolute;
+    top: 11px;
+    left: 15px;
+    height: 46px;
+    width: 46px;
+}
+.t img{
+    border: 3px solid #F0FFFF;
+    border-radius: 50%;
+}
+.tt{
+    height: 106px;
+    height: 37.6px;
+    position: absolute;
+    top: 10px;
+    right: 25px;
+    color: #666;
+}
+.tt p{
+    overflow: hidden;
+    display: block;
+    width: 106px;
+    height: 20px;
+    line-height: 20px;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    font-size: 12px;
+    position: absolute;
+    top: 18px;
+    right: -13px;
+}
+.tt .login{
+    color: #333;
+    display: inline;
+}
+.tt .login:hover{
+    color: #c81623;
+}
+.tt .log{
+    color: #666;
+
+}
+.ttt div{
+    height: 25px;
+    width: 190px;
+    position: relative;
+}
+.ttt .left{
+    display: block;
+    height: 25px;
+    width: 70px;
+    line-height: 25px;
+    font-size: 12px;
+    text-align: center;
+    border-radius: 13px;
+    margin: 0 5px;
+    color: #fff;
+    background-color: #e1251b;
+    position: absolute;
+    left: 15px;
+    top: 0;
+}
+.ttt .left:hover{
+    background-color:#c81623;
+    color: #fff;
+
+}
+.ttt .right:hover{
+    background-color:#c81623;
+    color: #fff;
+
+}
+.ttt .right{
+    display: block;
+    height: 25px;
+    width: 70px;
+    line-height: 25px;
+    font-size: 12px;
+    text-align: center;
+    border-radius: 13px;
+    margin: 0 5px;
+    color: #e5d790;
+    background-color: #363634;
+    padding: 0 0 ;
+    position: absolute;
+    right: 15px;
+    top: 0%;
+}
+.col3 .sy{
+    text-align: center;
+    width: 130px;
+    height: 0px;
+    position: absolute;
+    left: 30px;
+    top: 101px;
+    border-bottom: 1px solid rgba(0,0,0,.08);
+
+}
+/* 中 */
+.news{
+width: 190px;
+height: 130px;
+position: absolute;
+left: 0;
+top: 102px;
+}
+.news .momo{
+    width: 190px;
+    height: 20px;
+    line-height: 20px;
+    margin: 0 0 8px;
+    padding: 10px 0 0 ;
+    position: relative;
+}
+.momo a{
+    display: block;
+position: absolute;
+width: 39.56px;
+height: 20.8px;
+line-height: 20.8px;
+right: 15px;
+top: 10px;
+font-size: 12px;
+color: #999;
+}
+.momo h5{
+    display: block;
+    /* position: absolute; */
+    margin-left: 15px;
+    font-size: 14px;
+}
+.momo a:hover{
+    color: #c81623;
+}
+.news .list{
+    width: 160px;
+    height: 88px;
+    margin: 0 15px;
+
+}
+.list li{
+    display: block;
+    width: 160px;
+    height: 16px;
+    position: relative;
+    margin: 0 0 6px;
+}
+.list span{
+    display: inline-block;
+    font-size: 12px;
+    height: 16px;
+    width: 35px;
+    line-height: 16px;
+    text-align: center;
+    vertical-align: 0;
+    color: #e1251b;
+    background-color: rgba(225, 37, 27, 0.08);
+    margin-right: 6px;
+}
+.list a{
+    display: block;
+    color: #666;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 273.25px;
+    height: 16px;
+    line-height: 16px;
+}
+.list a:hover{
+    color: #c81623;
+}
+.col3 .sx{
+    text-align: center;
+    width: 120px;
+    height: 0px;
+    position: absolute;
+    left: 35px;
+    top: 233px;
+    border-bottom: 1px solid rgba(0,0,0,.08);
+
+}
+/* 下 */
+.picture{
+    display: block;
+    width: 189px;
+    height: 230px;
+
+    position: absolute;
+    left: 0;
+    bottom: 4px;
+    padding: 5px 0.5px;
+}
+.img{
+    display: block;
+    width: 189px;
+    height: 225px;
+    padding: 5px 0 0;
+}
+.picture-one li{
+    display: block;
+    width: 63px;
+    height: 55px;
+    line-height: 55px;
+    text-align: center;
+    float: left;
+    position: relative;
+}
+.picture-one span{
+    position: absolute;
+    width: 63px;
+    height: 27px;
+    bottom: -3.5px;
+    left: 0;
+    color:#333
+}
+.picture-one li span:hover{
+    color: #c81623;
+}
+/* 自由设置 */
+.free{
+    width: 1519.2px;
+    height: 0px;
+    background-color: #fff;
+}
+

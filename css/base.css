@@ -1,0 +1,426 @@
+/* 全局 */
+.w{
+    width: 1190px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.f10{
+    color: #E1251B!important;
+}
+body{
+    background-color: #f6f6f6;
+}
+ul,h1,input,h5,p,li{
+    margin: 0;
+    padding: 0;
+}
+@font-face {
+    font-family: 'icomoon';
+    src:  url('../fonts/icomoon.eot?v8n0u');
+    src:  url('../fonts/icomoon.eot?v8n0u#iefix') format('embedded-opentype'),
+      url('../fonts/icomoon.ttf?v8n0u') format('truetype'),
+      url('../fonts/icomoon.woff?v8n0u') format('woff'),
+      url('../fonts/icomoon.svg?v8n0u#icomoon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+  }
+/* 头部 */
+header{
+    height: 80px;
+    background-color: #925A31;
+    position: relative;
+}
+header .top-img{
+    width: 190px;
+    height: 80px;
+    background: url("../images/111.jpg");
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+input,button{
+    border: 0;
+    outline: none;
+}
+ul{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    font-size: 12px;
+    line-height: 30px;
+    color: #999;
+}
+a:hover{
+    color: #e33333;
+}
+.city{
+    margin-left: 200px;
+
+}
+/* 导航栏 */
+.shortcut{
+    background-color:#e3e4e5!important;
+    border-bottom:1px solid #ddd;
+    height: 30px;
+    font-size: 12px;
+    line-height: 30px;
+    color: #999;
+    position: relative;
+}
+.shortcut .CY{
+    /* position: absolute; */
+    left: 5px;
+}
+.fl{
+    float: left;
+}
+.fr{
+    float:right
+
+}
+.shortcut li{
+    float: left;
+}
+.space{
+    margin: 10px 12px 0;
+    width: 1px;
+    height: 10px;
+    background-color: #999;
+
+}
+.shortcut i{
+    font-family: "icomoon";
+    font-style: normal;
+    color: #999;
+}
+.mobile{
+    position: relative;
+
+
+}
+.mobile img{
+    position: absolute;
+    top: 25px;
+    left: -10px;
+    border: 1px solid rgb(206, 201, 201);
+    padding: 3px;
+}
+/* 搜索框 */
+.middle{
+    height: 140px;
+    position: relative;
+
+}
+.gg{
+    height: 140px;
+    width: 1519.2px;
+    background-color: #fff;
+ 
+    border-bottom:1px solid #ddd;
+    
+}
+.logo{
+    position: absolute;
+    top: 0px;
+    left: 0;
+    /* box-shadow: 0px -1px 5px rgba(0,0,0,.3); */
+}
+.logo a{
+    display: block;
+    background: #fff url(../images/jd.gif)  no-repeat;
+    margin: 10px 0;
+    height: 120px;
+    width: 190px;
+    background-size: cover;
+    background-position: "center";
+    /* overflow: hidden; */
+}
+.form{
+    height: 37px;
+    width: 550px;
+    position: absolute;
+    top: 25px; ;
+    left: 320px;
+}
+.form input{
+    width: 480px;
+    height: 33px;
+    border: 2px solid #f10215;
+    float: left;
+    padding-left: 15px;
+    font-size: 12px;
+    color: #999;
+
+}
+.form button{
+    height: 37px;
+    width: 50px;
+    background-color: #E1251B;
+    float: left;
+}
+.form i{
+    font-family: "icomoon";
+    font-style: normal;
+    font-size:19px ;
+    color: white;
+    margin-top: 5px;
+}
+.form button:hover{
+    background-color: #c81623;
+}
+.shopCar{
+    width: 188px;
+    height: 33px;
+    line-height: 33px;
+    border:1px solid #ccc;
+    position: absolute;
+    top: 25px;
+    right: 95px;
+    text-align: center;
+
+}
+.shopCar i{
+    font-family: "icomoon";
+    font-style: normal;
+    color:  #f10215;
+    margin-right: 5px;
+}
+.shopCar span{
+    width: 14px;
+    height: 14px;
+    background-color: #f10215;
+    border-radius: 50%;
+    position: absolute; 
+    top: 3px;
+    right: 117px;
+    font-size: 10px;
+    color: #fff;
+    line-height: 14px;
+}
+.shopCar a{
+    font-family: "Microsoft YaHei";
+    font-size: 12px;
+}
+.hotwords{
+    position:absolute;
+    top: 62px; 
+    left: 320px;
+}
+.hotwords a{
+    margin-right: 6px;
+}
+.hotTitle{
+    position: absolute;
+    bottom: 5px;
+    left: 200px;
+}
+.hotTitle a{
+    margin-right:20px;
+    font-family: "Microsoft YaHei";
+    font-size: 16px;
+    color: #555;
+}
+.hotTitle a:hover{
+    color: #E1251B;
+}
+/* 底部 */
+footer{
+    height: 566px;
+    background-color:#EAEAEA;
+    margin-top: 35px;
+}
+.service
+{
+    overflow: hidden;
+    padding: 30px 0; 
+    border-bottom: 1px solid #DEDEDE;
+}
+.service ul li{
+    width: 297px;
+    height: 42px;
+    position: relative;
+    line-height: 42px;
+    float: left;
+
+}
+.service li h5{
+    position: absolute;
+    top: 0px;
+    left: 30px;
+    width: 36px;
+    height: 42px;
+    background: url("../images/ico.png") no-repeat;
+}
+.service li:nth-child(2) h5{
+    background-position: 0 -43px;
+}
+.service li:nth-child(3) h5{
+    background-position: 0 -86px;
+}
+.service li:nth-child(4) h5{
+    background-position: 0 -129px;
+}
+.service li p{
+    font-weight: 700;
+    margin-left: 82px;
+    font-size: 18px;
+    color: #444444;
+}
+.help{
+    height: 159px;
+    padding: 20px;
+    border-bottom: 1px solid #DEDEDE ;
+}
+.help h5{
+    height: 21.6px;
+    width: 198px;
+    font-family: "Microsoft YaHei";
+    font-size: 14px;
+    color: #666666;
+    margin: 0 0 5px;
+
+} 
+.nav{
+    padding: 0;
+    border: 0;
+    width: 198px;
+    height: 156.2px;
+    float: left;
+
+}
+.second{
+    padding: 0;
+    border: 0;
+    width: 198px;
+    height: 134.6px;
+    float: left;
+
+}
+.nav li{
+    width: 198px;
+
+
+}
+.nav a{
+    height: 21.6px;
+    line-height: 21.6px;
+    font-size: 12px;
+    color: #666666;
+
+}
+.nav a:hover{
+    color: #E1251B;
+}
+.nav p{
+
+    font-family: "Microsoft YaHei";
+    font-size: 12px;
+    color: #666666;
+}
+.right{
+    width: 180px;
+    height: 71.2px;
+    padding: 0 10px;
+}
+.right .p{
+    font-family: "Microsoft YaHei";
+    font-size: 12px;
+    color: #666666; 
+}
+.map{
+    display: block;
+    background-repeat: no-repeat;
+    float: right;
+    width: 200px;
+    height: 150px;
+    background-image: url("../images/map.png");
+}
+.map h5{
+    width: 200px;
+    height: 20.8px;
+    text-align: center;;
+    margin: 0 0 15px;
+}
+.map a{
+    margin: 0;
+    padding: 0;
+    float: right;
+}
+/* 版权部分 */
+.copy-links{
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+.copyright{
+    height: 262.2px;
+    width: 1519.2px;
+}
+.copy-inner{
+
+    font-size: 12px;
+    height: 232.2px;
+    margin: 0 164.6px;
+    padding: 15px 0;
+}
+.copy-links a{
+    color: #666;
+    line-height: 17.6px;
+}
+
+.copy-into{
+    text-align: center;
+    height: 108px;
+    padding: 10px 0;
+}
+.copy-into p a{
+    line-height: 21.6px;
+}
+.copy-auth{
+    margin: 25px 0;
+    text-align: center;
+    line-height: 22px;
+}
+.copy-auth a{
+    display: inline-block;
+
+    width: 103px;
+    height: 33px;
+    background: url("../images/ico_footer.png") no-repeat 0px -150px;
+
+}
+.copy-auth a:nth-child(2){
+    background-position: -103px -150px;
+}
+.copy-auth a:nth-child(3){
+    background-position: 0px -183px;
+}
+.copy-auth a:nth-child(4){
+    background-position: -103px -183px;
+}
+.copy-auth a:nth-child(5){
+    background-position: 0px -216px;
+}
+.copy-auth a:nth-child(6){
+    background-position: -103px -216px;
+}
+.copy-links span{
+    margin: 0 10px;
+    color: #CCC;
+    font-size: 12px;
+}
+.copy-into .gang{
+    margin: 0 10px;
+    color: #CCC;
+    font-size: 12px;
+}
+.copy-into{
+    color: #999;
+
+}
+.copy-into p .gangang{
+    margin: 0 0 0 16px!important;
+}
